@@ -1,6 +1,6 @@
 console.log('main.js успешно подключен!');
 
-$(".slider").slick({
+$(".carousel").slick({
 
     // normal options...
     infinite: false,
