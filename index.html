@@ -1,0 +1,432 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no, viewport-fit-cover">
+    <title>LabutenShop</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header class="header">
+        <div class="header-top">
+            <div class="header-menu">
+                <a href="#" class="header-menu__item signin">Вход</a>
+                <a href="#" class="header-menu__item favorite">Избранное</a>
+                <a href="#" class="header-menu__item compare">Сравнение</a>
+            </div>
+            <div class="header-social">
+                <a href="#" class="header-social__link">
+                    <svg class="header-social__svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+                        <use xlink:href="images/svg/vk.svg#vk"></use>
+                    </svg>
+                </a>
+                <a href="#" class="header-social__link">
+                    <svg class="header-social__svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+                        <use xlink:href="images/svg/facebook.svg#facebook"></use>
+                    </svg>
+                </a>
+                <a href="#" class="header-social__link">
+                    <svg class="header-social__svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+                        <use xlink:href="images/svg/twitter.svg#twitter"></use>
+                    </svg>
+                </a>
+            </div>
+        </div>
+        <div class="header-bottom">
+            <div class="header-logo">
+                <div class="header-logo__image">
+                    <svg class="header-logo__svg" xmlns="http://www.w3.org/2000/svg" viewBox="50 0 640 1400">
+                        <use xlink:href="images/svg/logo.svg#logo"></use>
+                    </svg>
+                </div>
+                <div class="header-logo__text">
+                    <span class="header-logo__title">MOMENTOMO.RU</span>
+                    <span class="header-logo__subtitle">just watch the time<br>to control your life</span>
+                </div>
+            </div>
+            <div class="header-bottom__block">
+                <div class="header-contacts">
+                    <address class="header-contacts__info">
+                        <a href="tel:89257775522" class="header-contacts__link phone">8 (925) 777-55-22</a>
+                    </address>
+                    <address class="header-contacts__info">
+                        <a href="mailto:info@momentomo.ru" class="header-contacts__link mail">info@momentomo.ru</a>
+                    </address>
+                </div>
+                <form class="header-search" method="get">
+                    <input type="search" class="header-search__input" placeholder="Введите поисковую фразу">
+                    <button type="submit" class="header-search__button">
+                        <svg class="header-search__svg" xmlns="http://www.w3.org/2000/svg" >
+                            <use xlink:href="images/svg/search.svg#search"></use>
+                        </svg>
+                    </button>
+                </form>
+            </div>
+
+            <div class="header-basket">
+                <output class="header-basket__counter">2</output>
+                <output class="header-basket__total-price">7500 р.</output>
+                <a href="#" class="header-basket__link">
+                    <svg class="header-basket__svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+                        <use xlink:href="images/svg/shopping-cart.svg#cart"></use>
+                    </svg>
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <nav class="main-menu">
+        <ul class="main-menu-items">
+            <li class="main-menu-items__item"><a href="#" class="main-menu-items__link">Главная</a></li>
+            <li class="main-menu-items__item"><a href="#" class="main-menu-items__link">Каталог</a></li>
+            <li class="main-menu-items__item"><a href="#" class="main-menu-items__link">Галерея</a></li>
+            <li class="main-menu-items__item"><a href="#" class="main-menu-items__link">Акции</a></li>
+            <li class="main-menu-items__item"><a href="#" class="main-menu-items__link">Контакты</a></li>
+        </ul>
+    </nav>
+
+    <div class="content-wrapper">
+        <main>
+            <section class="carousel">
+                <svg class="carousel__svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 22 32">
+                    <use xlink:href="images/svg/left.svg#left"></use>
+                </svg>
+                <div class="carousel-content">
+                    <img src="images/jpg/moon.png" alt="картинка карусели" class="carousel-content__image">
+                    <div class="carousel-text">
+                        <h1 class="carousel-text__title">Moon Watcher</h1>
+                        <span class="carousel-text__subtitle">
+                            Часы прямиком из космоса украсят ваш интерьер.<br>
+                            Пока планеты управляют другими - вы управляете<br> планетами</span>
+                        <button class="carousel__button">купить Луну</button>
+                        <p class="carousel-text__description">
+                            Планетарная коллекция
+                        </p>
+                    </div>
+                </div>
+                <svg class="carousel__svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 22 32">
+                    <use xlink:href="images/svg/right.svg#right"></use>
+                </svg>
+            </section>
+
+            <section class="sale-block">
+                <div class="sale-item">
+                    <h2 class="sale-item__title sell">Продажа</h2>
+                    <span class="sale-item__subtitle">Широкий ассортимент моделей</span>
+                </div>
+                <div class="sale-item">
+                    <h2 class="sale-item__title discount">Скидки</h2>
+                    <span class="sale-item__subtitle">Невообразимо низкие цены</span>
+                </div>
+                <div class="sale-item">
+                    <h2 class="sale-item__title action">Акции</h2>
+                    <span class="sale-item__subtitle">Широкий ассортимент моделей</span>
+                </div>
+            </section>
+
+            <section class="product-category">
+                <h3 class="product-category__title">новинки</h3>
+                <div class="product-items">
+                    <figure class="product-item">
+                        <figcaption class="product-item__title">Gabriel GOLD</figcaption>
+                        <img src="images/jpg/product-image.png" alt="товар" class="product-item__image">
+                        <output class="product-item__price">35 000 р.</output>
+                        <output class="product-item__label new">new</output>
+                        <form class="product-checkout">
+                            <button class="product-checkout__basket">
+                                <svg class="product-checkout__basket-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+                                    <use xlink:href="images/svg/shopping-cart-small.svg#cart"></use>
+                                </svg>
+                                в корзину
+                            </button>
+                            <button class="product-checkout__bolt">
+                                <svg class="product-checkout__bolt-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 68">
+                                    <use xlink:href="images/svg/bolt.svg#bolt"></use>
+                                </svg>
+                            </button>
+                        </form>
+                    </figure>
+                    <figure class="product-item">
+                        <figcaption class="product-item__title">Gabriel GOLD</figcaption>
+                        <img src="images/jpg/product-image.png" alt="товар" class="product-item__image">
+                        <output class="product-item__price">35 000 р.</output>
+                        <output class="product-item__label new">new</output>
+                        <form class="product-checkout">
+                            <button class="product-checkout__basket">
+                                <svg class="product-checkout__basket-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+                                    <use xlink:href="images/svg/shopping-cart-small.svg#cart"></use>
+                                </svg>
+                                в корзину
+                            </button>
+                            <button class="product-checkout__bolt">
+                                <svg class="product-checkout__bolt-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 68">
+                                    <use xlink:href="images/svg/bolt.svg#bolt"></use>
+                                </svg>
+                            </button>
+                        </form>
+                    </figure>
+                    <figure class="product-item">
+                        <figcaption class="product-item__title">Gabriel GOLD</figcaption>
+                        <img src="images/jpg/product-image.png" alt="товар" class="product-item__image">
+                        <output class="product-item__price">35 000 р.</output>
+                        <output class="product-item__label new">new</output>
+                        <form class="product-checkout">
+                            <button class="product-checkout__basket">
+                                <svg class="product-checkout__basket-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+                                    <use xlink:href="images/svg/shopping-cart-small.svg#cart"></use>
+                                </svg>
+                                в корзину
+                            </button>
+                            <button class="product-checkout__bolt">
+                                <svg class="product-checkout__bolt-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 68">
+                                    <use xlink:href="images/svg/bolt.svg#bolt"></use>
+                                </svg>
+                            </button>
+                        </form>
+                    </figure>
+                    <figure class="product-item">
+                        <figcaption class="product-item__title">Gabriel GOLD</figcaption>
+                        <img src="images/jpg/product-image.png" alt="товар" class="product-item__image">
+                        <output class="product-item__price">35 000 р.</output>
+                        <output class="product-item__label new">new</output>
+                        <form class="product-checkout">
+                            <button class="product-checkout__basket">
+                                <svg class="product-checkout__basket-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+                                    <use xlink:href="images/svg/shopping-cart-small.svg#cart"></use>
+                                </svg>
+                                в корзину
+                            </button>
+                            <button class="product-checkout__bolt">
+                                <svg class="product-checkout__bolt-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 68">
+                                    <use xlink:href="images/svg/bolt.svg#bolt"></use>
+                                </svg>
+                            </button>
+                        </form>
+                    </figure>
+                </div>
+            </section>
+
+            <section class="product-category">
+                <h3 class="product-category__title">товары со скидкой</h3>
+                <div class="product-items">
+                    <figure class="product-item">
+                        <figcaption class="product-item__title">Gabriel GOLD</figcaption>
+                        <img src="images/jpg/product-image.png" alt="товар" class="product-item__image">
+                        <output class="product-item__price">
+                            35 000 р.
+                            <output class="product-item__discount">42 700 р.</output>
+                        </output>
+                        <output class="product-item__label discount">-10%</output>
+                        <form class="product-checkout">
+                            <button class="product-checkout__basket">
+                                <svg class="product-checkout__basket-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+                                    <use xlink:href="images/svg/shopping-cart-small.svg#cart"></use>
+                                </svg>
+                                в корзину
+                            </button>
+                            <button class="product-checkout__bolt">
+                                <svg class="product-checkout__bolt-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 68">
+                                    <use xlink:href="images/svg/bolt.svg#bolt"></use>
+                                </svg>
+                            </button>
+                        </form>
+                    </figure>
+                    <figure class="product-item">
+                        <figcaption class="product-item__title">Gabriel GOLD</figcaption>
+                        <img src="images/jpg/product-image.png" alt="товар" class="product-item__image">
+                        <output class="product-item__price">
+                            35 000 р.
+                            <output class="product-item__discount">42 700 р.</output>
+                        </output>
+                        <output class="product-item__label discount">-10%</output>
+                        <form class="product-checkout">
+                            <button class="product-checkout__basket">
+                                <svg class="product-checkout__basket-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+                                    <use xlink:href="images/svg/shopping-cart-small.svg#cart"></use>
+                                </svg>
+                                в корзину
+                            </button>
+                            <button class="product-checkout__bolt">
+                                <svg class="product-checkout__bolt-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 68">
+                                    <use xlink:href="images/svg/bolt.svg#bolt"></use>
+                                </svg>
+                            </button>
+                        </form>
+                    </figure>
+                    <figure class="product-item">
+                        <figcaption class="product-item__title">Gabriel GOLD</figcaption>
+                        <img src="images/jpg/product-image.png" alt="товар" class="product-item__image">
+                        <output class="product-item__price">
+                            35 000 р.
+                            <output class="product-item__discount">42 700 р.</output>
+                        </output>
+                        <output class="product-item__label discount">-10%</output>
+                        <form class="product-checkout">
+                            <button class="product-checkout__basket">
+                                <svg class="product-checkout__basket-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+                                    <use xlink:href="images/svg/shopping-cart-small.svg#cart"></use>
+                                </svg>
+                                в корзину
+                            </button>
+                            <button class="product-checkout__bolt">
+                                <svg class="product-checkout__bolt-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 68">
+                                    <use xlink:href="images/svg/bolt.svg#bolt"></use>
+                                </svg>
+                            </button>
+                        </form>
+                    </figure>
+                    <figure class="product-item">
+                        <figcaption class="product-item__title">Gabriel GOLD</figcaption>
+                        <img src="images/jpg/product-image.png" alt="товар" class="product-item__image">
+                        <output class="product-item__price">
+                            35 000 р.
+                            <output class="product-item__discount">42 700 р.</output>
+                        </output>
+                        <output class="product-item__label discount">-10%</output>
+                        <form class="product-checkout">
+                            <button class="product-checkout__basket">
+                                <svg class="product-checkout__basket-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+                                    <use xlink:href="images/svg/shopping-cart-small.svg#cart"></use>
+                                </svg>
+                                в корзину
+                            </button>
+                            <button class="product-checkout__bolt">
+                                <svg class="product-checkout__bolt-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 68">
+                                    <use xlink:href="images/svg/bolt.svg#bolt"></use>
+                                </svg>
+                            </button>
+                        </form>
+                    </figure>
+                </div>
+            </section>
+        </main>
+
+        <aside>
+            <nav class="left-menu">
+                <h4 class="left-menu__title">Категории</h4>
+                <ul class="left-menu-items">
+                    <li class="left-menu-items__item">
+                        <a href="#" class="left-menu-items__link evening">
+                            <!--<img src="#" alt="вечерние" class="left-menu-items__icon">-->
+                            Вечерние
+                        </a>
+                    </li>
+                    <li class="left-menu-items__item">
+                        <a href="#" class="left-menu-items__link wedding">
+                            <!--<img src="#" alt="свадебные" class="left-menu-items__icon">-->
+                            Свадебные
+                        </a>
+                    </li>
+                    <li class="left-menu-items__item">
+                        <a href="#" class="left-menu-items__link popular">
+                            <!--<img src="#" alt="бальные" class="left-menu-items__icon">-->
+                            Популярные
+                        </a>
+                    </li>
+                    <li class="left-menu-items__item">
+                        <a href="#" class="left-menu-items__link usual">
+                            <!--<img src="#" alt="повседневные" class="left-menu-items__icon">-->
+                            Повседневные
+                        </a>
+                    </li>
+                    <li class="left-menu-items__item">
+                        <a href="#" class="left-menu-items__link special">
+                            <!--<img src="#" alt="особенные" class="left-menu-items__icon">-->
+                            Особенные
+                        </a>
+                    </li>
+                    <li class="left-menu-items__item">
+                        <a href="#" class="left-menu-items__link simple">
+                            <!--<img src="#" alt="обыкновенные" class="left-menu-items__icon">-->
+                            Обыкновенные
+                        </a>
+                    </li>
+                    <li class="left-menu-items__item">
+                        <a href="#" class="left-menu-items__link original">
+                            <!--<img src="#" alt="оригинальные" class="left-menu-items__icon">-->
+                            Оригинальные
+                        </a>
+                    </li>
+                    <li class="left-menu-items__item">
+                        <a href="#" class="left-menu-items__link space">
+                            <!--<img src="#" alt="космические" class="left-menu-items__icon">-->
+                            Космические
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+
+            <div class="adverts-block">
+                <div class="adverts-block__item">
+                    <a href="#" class="adverts-block-top__link">
+                        <img src="images/jpg/napoleon.jpg" alt="napoleon" class="adverts-block-top__image">
+                    </a>
+                </div>
+                <div class="adverts-block__item">
+                    <a href="#" class="adverts-block-bottom__link">
+                        <img src="images/jpg/chanel.jpg" alt="chanel" class="adverts-block-bottom__image">
+                    </a>
+                </div>
+                <div class="adverts-block__item">
+                    <a href="#" class="adverts-block-bottom__link">
+                        <img src="images/jpg/girl.jpg" alt="girl" class="adverts-block-bottom__image">
+                    </a>
+                </div>
+            </div>
+        </aside>
+    </div>
+
+    <footer class="footer">
+        <div class="footer-top">
+
+            <div class="footer-logo">
+                <div class="footer-logo__image">
+                    <svg class="footer-logo__svg" xmlns="http://www.w3.org/2000/svg" viewBox="50 0 640 1400">
+                        <use xlink:href="images/svg/logo.svg#logo"></use>
+                    </svg>
+                </div>
+                <div class="footer-logo__text">
+                    <span class="footer-logo__title">MOMENTOMO.RU</span>
+                    <span class="footer-logo__subtitle">just watch the time<br>to control your life</span>
+                </div>
+            </div>
+
+            <div class="footer-menu">
+                <div class="footer-item">
+                    <h4 class="footer-item__title">Меню</h4>
+                    <a href="#" class="footer-item__link">Главная</a>
+                    <a href="#" class="footer-item__link">Каталог</a>
+                    <a href="#" class="footer-item__link">Галерея</a>
+                    <a href="#" class="footer-item__link">Акции</a>
+                    <a href="#" class="footer-item__link">Контакты</a>
+                </div>
+                <div class="footer-item">
+                    <h4 class="footer-item__title">Способы оплаты</h4>
+                    <a href="#" class="footer-item__link">Наличными</a>
+                    <a href="#" class="footer-item__link">Visa или Mastercard</a>
+                    <a href="#" class="footer-item__link">В кредит</a>
+                </div>
+                <div class="footer-item">
+                    <h4 class="footer-item__title">Контактная информация</h4>
+                    <address>
+                        <a href="tel:84996549879" class="footer-item__link">Телефон: 8(499)654-98-79</a>
+                    </address>
+                    <address>
+                        <a href="mailto:info@nalabuten.ah" class="footer-item__link">E-mail: info@nalabuten.ah</a>
+                    </address>
+                    <address>
+                        <a href="#" class="footer-item__link">Адрес: г.Москва Фантастический проезд д.234</a>
+                    </address>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <small class="footer-bottom__copyright">&copy;Nalabutenah
+                <time datetime="2017">2017</time>
+            </small>
+        </div>
+    </footer>
+
+</body>
+</html>

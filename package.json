@@ -1,0 +1,22 @@
+{
+  "name": "nalabutenah-final",
+  "version": "1.0.0",
+  "description": "my try in web development",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DmitriChe/nalabutenah-final.git"
+  },
+  "author": "DmitriChe",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DmitriChe/nalabutenah-final/issues"
+  },
+  "homepage": "https://github.com/DmitriChe/nalabutenah-final#readme",
+  "dependencies": {
+    "slick-carousel": "^1.8.1"
+  }
+}
