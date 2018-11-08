@@ -367,6 +367,10 @@ main {
     background-color: #000000;
     padding: 0 50px 0;
     flex-wrap: wrap;
+    cursor: grab;
+}
+.carousel-content:active {
+    cursor: grabbing;
 }
 
 .carousel__arrow {
