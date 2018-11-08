@@ -25,17 +25,19 @@ a {
 
 .header-top {
     max-width: 1240px;
-    height: 40px;
+    min-height: 40px;
     background-color: #f4f4f4;
     display: flex;
     justify-content: space-between;
     position: relative;
+    flex-wrap: wrap;
 }
 
 .header-menu,
 .header-social {
     height: inherit;
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
 }
 
@@ -72,6 +74,7 @@ a {
 .header-social {
     width: 200px;
     justify-content: space-evenly;
+    flex-wrap: wrap;
 }
 
 .header-social__svg {
@@ -88,9 +91,10 @@ a {
 
 .header-bottom {
     max-width: 1240px;
-    height: 130px;
+    min-height: 130px;
     background-color: #ffffff;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
     position: relative;
@@ -174,7 +178,7 @@ a {
 
 .header-search {
     margin-top: 5px;
-    width: 610px;
+    max-width: 610px;
     height: 44px;
     display: flex;
     justify-content: space-between;
@@ -182,7 +186,7 @@ a {
 }
 .header-search__input {
     flex-grow: 1;
-    width: 525px;
+    max-width: 525px;
     border: thin solid grey;
     border-right: none;
     font-family: 'Roboto-Thin', sans-serif;
@@ -228,7 +232,7 @@ a {
 
 
 .header-basket {
-    width: 210px;
+    max-width: 210px;
     height: 72px;
     border: 1px solid #cecece;
     position: relative;
@@ -288,26 +292,31 @@ a {
 
 .main-menu {
     max-width: 1240px;
-    height: 50px;
     margin: 0 auto;
     background-color: #00686e;
-    display: flex;
-    justify-content: space-between;
     position: relative;
 }
 
 .main-menu-items {
+    min-height: 50px;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
+    align-items: stretch;
+    flex-wrap: wrap;
+}
+.main-menu-items__item {
+    width: 200px;
+    display: flex;
+    justify-content: center;
     align-items: center;
-    padding: 0 37px;
 }
 .main-menu-items__link {
-    display: inline-block;
     width: 200px;
+    /*margin: auto;*/
+    display: block;
+    padding: auto;
     text-align: center;
     border-left: 1px solid #ffffff;
-    line-height: 30px;
     color: #ffffff;
     font-family: 'Roboto', sans-serif;
     font-size: 18px;
