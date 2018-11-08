@@ -754,9 +754,24 @@ aside {
     }
 
     .footer-top {
-        min-height: 360px;
+        height: 310px;
+        padding: 20px 0;
         flex-direction: column;
-        align-content: space-between;
+        justify-content: center;
+        align-content: center;
+        align-items: center;
+    }
+    .footer-logo {
+        margin-bottom: 30px;
+    }
+    .footer-menu {
+        display: flex;
+        max-width: 1100px;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    .footer-item {
+        margin: 0 30px;
     }
 }
 
