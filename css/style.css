@@ -718,12 +718,22 @@ aside {
     }
     aside {
         display: flex;
-        justify-content: space-around;
+        flex-direction: row;
+        align-items: flex-start;
     }
 
     .left-menu {
-        width: 600px;
+        flex-basis: calc(100% / 2 - 20px * 1 / 2);
     }
+
+    .adverts-block__image {
+        width: 229px;
+    }
+}
+
+@media screen and (max-width: 1100px) {
+
+
 }
 
 /*FOOTER BLOCK*/
