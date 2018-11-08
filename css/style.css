@@ -330,6 +330,7 @@ a {
 }
 
 
+
 .content-wrapper {
     max-width: 1240px;
     min-height: 1343px;
@@ -340,12 +341,20 @@ a {
     justify-content: space-between;
     position: relative;
     flex-wrap: wrap;
-
 }
+
+
+/*MAIN BLOCK*/
+
+
 main {
     max-width: 925px;
     position:relative;
 }
+
+
+/*CAROUSEL BLOCK*/
+
 
 .carousel-content {
     max-width: 925px;
@@ -415,6 +424,10 @@ main {
     margin-left: 196px;
 }
 
+
+/*SALE BLOCK*/
+
+
 .sale-block {
     margin-top: 25px;
     display: flex;
@@ -466,6 +479,9 @@ main {
 .sale-item__title.action::before {
     content: url(../images/svg/gift.svg);
 }
+
+
+/*PRODUCTS BLOCK*/
 
 .product-category__title {
     font-size: 22px;
@@ -604,7 +620,9 @@ main {
 }
 
 
-    /*ASIDE BLOCK*/
+/*ASIDE BLOCK*/
+
+
 aside {
     order: -1;
 }
@@ -615,7 +633,7 @@ aside {
 }
 
 .left-menu > h4 {
-    height: 57px;
+    min-height: 57px;
     background-color: #9b12ab;
     font-size: 20px;
     color: #ffffff;
@@ -683,6 +701,32 @@ aside {
 }
 
 
+@media screen and (max-width: 1250px) {
+
+    .content-wrapper {
+        max-width: 1240px;
+        min-height: 1343px;
+        margin: 0 auto;
+        background-color: #ffffff;
+        padding: 25px 0 50px;
+        display: flex;
+        flex-direction: column;
+        align-content: space-between;
+        align-items: center;
+        position: relative;
+        flex-wrap: wrap;
+    }
+    aside {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .left-menu {
+        width: 600px;
+    }
+}
+
+/*FOOTER BLOCK*/
 
 
 .footer {
