@@ -1,9 +1,16 @@
 console.log('main.js успешно подключен!');
 
 $(".carousel").slick({
+    // сокрытие стрелок карусели!
+    arrows: false,
 
+    autoplay: true,
+    autoplaySpeed: 3000,
+    cssEase: 'ease',
+    dots: true,
+    pauseOnDotsHover: true,
     // normal options...
-    infinite: false,
+    infinite: true,
 
     // the magic
     responsive: [{
@@ -28,4 +35,13 @@ $(".carousel").slick({
         settings: "unslick" // destroys slick
 
     }]
+});
+
+//перенаназначение управляющего класса каруселью .slickPrev на свой .prev
+$('.prev').click(function(){
+    $('.carousel').slick('slickPrev');
+});
+
+$('.next').click(function(){
+    $('.carousel').slick('slickNext');
 });
