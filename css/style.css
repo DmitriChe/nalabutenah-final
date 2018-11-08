@@ -668,7 +668,6 @@ aside {
 .left-menu-items__link::before {
     display: inline-block;
     vertical-align: middle;
-    /*margin-right: 6px;*/
 }
 
 .left-menu-items__link.evening::before {
@@ -746,6 +745,19 @@ aside {
         font-size: 14px;
     }
 
+    .sale-item {
+        flex-basis: calc(100% / 2 - 20px * 1 / 2);
+    }
+
+    .product-item {
+        flex-basis: calc(50% - 28px * 1 / 2);
+    }
+
+    .footer-top {
+        min-height: 360px;
+        flex-direction: column;
+        align-content: space-between;
+    }
 }
 
 /*FOOTER BLOCK*/
