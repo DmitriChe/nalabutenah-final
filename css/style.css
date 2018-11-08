@@ -732,7 +732,19 @@ aside {
 }
 
 @media screen and (max-width: 1100px) {
+    .header-bottom {
+        flex-direction: column;
+        min-height: 300px;
+        padding: 20px 0;
+    }
 
+    .main-menu-items__item {
+        width: 100px;
+    }
+    .main-menu-items__link {
+        width: 150px;
+        font-size: 14px;
+    }
 
 }
 
