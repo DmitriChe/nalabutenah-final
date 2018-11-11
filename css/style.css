@@ -88,7 +88,6 @@ a {
     fill: #cf12df;
 }
 
-
 .header-bottom {
     max-width: 1240px;
     min-height: 130px;
@@ -229,7 +228,6 @@ a {
 .header-contacts__link.mail::before {
     content: url(../images/svg/envelope.svg);
 }
-
 
 .header-basket {
     max-width: 210px;
@@ -754,13 +752,12 @@ aside {
     }
 
     .product-item {
-        flex-basis: calc(50% - 28px * 1 / 2);
+        flex-basis: calc(100% / 2 - 28px * 1 / 2);
     }
 
     .footer-top {
         height: 310px;
         padding: 20px 0;
-        flex-direction: column;
         justify-content: center;
         align-content: center;
         align-items: center;
@@ -824,15 +821,15 @@ aside {
 }
 
 .footer-menu {
-    max-width: 940px;
+    width: 940px;
     display: flex;
     justify-content: space-evenly;
-    /*align-items: flex-start;*/
     flex-wrap: wrap;
-    flex-grow: 1;
+    /*flex-grow: 1;*/
     margin: auto;
 }
 .footer-item {
+    margin: 15px;
     display: flex;
     flex-direction: column;
 }
