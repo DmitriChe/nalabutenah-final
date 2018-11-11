@@ -431,10 +431,8 @@ main {
 
 
 .sale-block {
-    margin-top: 25px;
     display: flex;
     justify-content: space-between;
-    flex-wrap: wrap;
 }
 
 .sale-item {
@@ -748,7 +746,8 @@ aside {
     }
 
     .sale-item {
-        flex-basis: calc(100% / 2 - 20px * 1 / 2);
+        margin: 10px auto;
+        flex-basis: calc(100% / 3 - 20px * 1 / 3);
     }
 
     .product-item {
@@ -774,6 +773,18 @@ aside {
     .footer-item {
         margin: 0 30px;
     }
+}
+
+@media screen and (max-width: 950px) {
+    .sale-block {
+        flex-direction: column;
+    }
+
+    .sale-item {
+        display: block;
+        width: 270px;
+    }
+
 }
 
 /*FOOTER BLOCK*/
@@ -825,7 +836,6 @@ aside {
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
-    /*flex-grow: 1;*/
     margin: auto;
 }
 .footer-item {
@@ -860,7 +870,7 @@ aside {
 
 .footer-bottom {
     max-width: 1240px;
-    min-height: 35px;
+    height: 35px;
     background-color: #000000;
     font-family: 'Roboto', sans-serif;
     font-size: 12px;
